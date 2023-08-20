@@ -7,7 +7,7 @@ def create_question():
     number = randint(2, 100)
     count = 0
     i = 2
-    while i < number//2:
+    while i < number // 2:
         if number % i == 0:
             count += 1
             i += 1
