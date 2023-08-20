@@ -5,7 +5,7 @@ count_of_tries = 3
 
 def start_game(game_name):
     print('Welcome to the Brain Games!')
-    name = prompt.string('May i have your name? ')
+    name = prompt.string('May I have your name? ')
     print('Hello, ' + name + '!')
     print(game_name.game_rules)
     try_count = 1
