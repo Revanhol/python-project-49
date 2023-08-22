@@ -9,7 +9,7 @@ def start_game(game):
     print(f"Hello, {name}!")
     print(game.GAME_RULES)
     for try_count in range(COUNT_OF_TRIES):
-        number, answer = game.creating_a_question_and_a_correct()
+        number, answer = game.creating_a_question_and_a_correct_answer()
         print(f"Question: {number}")
         user_answer = prompt.string("Your answer: ")
         if user_answer == answer:

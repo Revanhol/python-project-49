@@ -3,7 +3,7 @@ import random
 GAME_RULES = 'What is the result of the expression?'
 
 
-def creating_a_question_and_a_correct():
+def creating_a_question_and_a_correct_answer():
     number_1 = random.randint(1, 10)
     number_2 = random.randint(1, 10)
     operator = random.choice('+-*')

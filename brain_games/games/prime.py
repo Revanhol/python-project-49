@@ -16,7 +16,7 @@ def is_prime(number):
         return True
 
 
-def creating_a_question_and_a_correct():
+def creating_a_question_and_a_correct_answer():
     number = randint(2, 100)
     if is_prime(number):
         answer = 'yes'
