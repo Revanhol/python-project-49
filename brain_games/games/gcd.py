@@ -1,10 +1,10 @@
 from random import randint
 from math import gcd
 
-game_rules = 'Find the greatest common divisor of given numbers.'
+GAME_RULES = 'Find the greatest common divisor of given numbers.'
 
 
-def create_question():
+def creating_a_question_and_a_correct():
     number_1 = randint(1, 100)
     number_2 = randint(1, 100)
     operation = gcd(number_1, number_2)

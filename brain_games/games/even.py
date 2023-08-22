@@ -1,13 +1,12 @@
 from random import randint
 
-game_rules = 'Answer "yes" if the number is even, otherwise answer "no".'
+GAME_RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def create_question():
+def creating_a_question_and_a_correct():
     number = randint(1, 100)
     if number % 2 == 0:
         answer = 'yes'
     else:
         answer = 'no'
-    number = str(number)
-    return number, answer
+    return str(number), answer
