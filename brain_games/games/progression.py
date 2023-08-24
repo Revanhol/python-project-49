@@ -3,7 +3,7 @@ import random
 GAME_RULES = 'What number is missing in the progression?'
 
 
-def creating_a_question_and_a_correct_answer():
+def generate_question_and_right_answer():
     first_number = random.randint(1, 10)
     last_number = random.randint(30, 180)
     step_number = random.randint(2, 5)

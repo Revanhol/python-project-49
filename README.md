@@ -4,7 +4,7 @@
 <a href="https://codeclimate.com/github/Revanhol/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/9ee557024a3e1f1f5529/maintainability" /></a>
 
 # BRAIN GAMES 
-_(5 игр)_
+_Проект включает в себя 5 математических мини-игр. Игроку задается 3 вопроса, для того чтобы победить, ему необходимо дать все 3 правильных ответа._
 
 ## Основные команды
 

@@ -4,22 +4,19 @@ GAME_RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
-    i = 2
     count = 0
-    while i < number // 2:
+    for i in range(2, int(number // 2 + 1)):
         if number % i == 0:
             count += 1
             return False
-        else:
-            i += 1
     if count == 0:
         return True
 
 
-def creating_a_question_and_a_correct_answer():
+def generate_question_and_right_answer():
     number = randint(2, 100)
     if is_prime(number):
         answer = 'yes'
     else:
         answer = 'no'
-    return str(number), answer
+    return f"{number}", answer
