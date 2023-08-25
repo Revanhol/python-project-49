@@ -8,7 +8,7 @@ def start(game):
     name = prompt.string('May I have your name? ')
     print(f"Hello, {name}!")
     print(game.GAME_RULES)
-    for try_count in range(COUNT_OF_TRIES):
+    for _ in range(COUNT_OF_TRIES):
         number, answer = game.generate_question_and_right_answer()
         print(f"Question: {number}")
         user_answer = prompt.string("Your answer: ")
