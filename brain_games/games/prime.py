@@ -4,15 +4,13 @@ GAME_RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
-    count = 0
+    prime = True
     if number < 2:
-        return False
-    for i in range(2, int(number // 2 + 1)):
+        prime = False
+    for i in range(2, int(number ** 0.5 + 1)):
         if number % i == 0:
-            count += 1
-            return False
-    if count == 0:
-        return True
+            prime = False
+    return prime
 
 
 def generate_question_and_right_answer():
